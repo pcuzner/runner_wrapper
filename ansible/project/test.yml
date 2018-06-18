@@ -1,0 +1,21 @@
+---
+
+- name: test Playbook
+  hosts:
+    - localhost 
+  gather_facts: False
+  tasks:
+    - name: Step 1
+      command: sleep 10
+    - name: Step 2
+      command: sleep 10
+    - name: Step 3
+      command: sleep 10
+    - name: Step 4
+      command: sleep 10
+    - name: Step 5
+      command: sleep 10
+    - name: Step 6
+      command: sleep 10
+    - name: Step 7
+      command: sleep 10

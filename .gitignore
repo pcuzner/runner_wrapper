@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+*.pyc
+*.log
+tests/
+ansible/artifacts/*
+ansible/inventory/.artifact_write_lock
